@@ -650,7 +650,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #FFFFFF!important;
 }
 
 .container {
@@ -765,25 +765,22 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
 
 .bgc-atomic-tangerine {
-    background-color: #ff0000;
+    background-color: #DB0000;
 }
 
 .tc-white {
-    color: #ff0000!important;
+    color: #DB0000!important;
 }
 
 .btn-atomic-tangerine {
-    background: #ff0000;
+    background: #DB0000;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #ff0000!important;
+    background: #ff0101!important;
     color: #FFFFFF!important;
 }
 
