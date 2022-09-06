@@ -91,7 +91,6 @@ a:hover {
 }
 
 .texture-paper::before {
-    background: url("img/texture-paper.png");
     background-size: 280px 280px;
 }
 
@@ -749,11 +748,11 @@ h4 {
 }
 
 .avatar {
-    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 4px 9px rgba(0, 0, 0, 0.705);
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(61, 58, 49, 0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -771,20 +770,20 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #ff0000;
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ff0000!important;
 }
 
 .btn-atomic-tangerine {
-    background: #F3976C;
+    background: #ff0000;
     color: #FFFFFF!important;
 }
 
 .btn-atomic-tangerine:hover {
-    background: #c27956!important;
+    background: #ff0000!important;
     color: #FFFFFF!important;
 }
 
