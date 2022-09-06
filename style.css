@@ -722,7 +722,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #FFFFFF!important;
 }
 
 h4 {
@@ -806,10 +806,6 @@ h4 {
 .icon-dark-slate-blue {
     color: #364577!important;
     border-color: #364577!important;
-}
-
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
 }
 
 .bg-lines-h2-bg {
