@@ -12,6 +12,8 @@
 }
 
 .fa {
+    width: 48px;
+    height: 48px;
     display: inline-block;
     font: normal normal normal 14px/1 FontAwesome;
     font-size: inherit;
