@@ -81,33 +81,41 @@
 	<div class="container bloc-lg">
 		<div class="row">
 			<div class="col-sm-6">
-				<form id="form_1" novalidate>
+
+				<form action="" method="post" id="form_1" novalidate>
+
 					<div class="form-group">
-						<label>
-							Nom
+						<label for="name">
+							Votre Nom
 						</label>
-						<input id="name" class="form-control" required />
+						<input type="text" name="name" id="name" class="form-control" placeholder="ex:pierre" required />
 					</div>
+
 					<div class="form-group">
-						<label>
-							Adresse email
+                        <label for="email">
+							Votre adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input type="email" name="email" id="email" class="form-control" placeholder="ex:pierre@gmail.com" required />
 					</div>
+
 					<div class="form-group">
-						<label>
+						<label for="question">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<input type="text" name="question" id="question" class="form-control" placeholder="ex:un ami,un site internet, etc" required />
 					</div>
+
 					<div class="form-group">
-						<label>
-							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						<label for="message">
+							Brief de votre projet (Ajoutez autant de détails que nécessaire)
+						</label>
+						<textarea id="message" name="message" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
+
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
 					</button>
+
 				</form>
 			</div>
 			<div class="col-sm-6">

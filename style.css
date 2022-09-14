@@ -506,7 +506,11 @@ color: #FFFFFF!important;
 
 .form-control {
     border-color: rgba(0, 0, 0, .1);
-    box-shadow: none;
+}
+
+input:focus {
+    background-color: #702400;
+    color: #FFFFFF;
 }
 
 .font-text {
@@ -773,7 +777,7 @@ h4 {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #af0000;
+    background-color: #702400;
 }
 
 .tc-white {
@@ -781,12 +785,16 @@ h4 {
 }
 
 .btn-atomic-tangerine {
-    background: #af0000;
+    background: #702400;
     color: #FFFFFF!important;
 }
 
+li a:hover {
+   color: #702400!important;
+}
+
 .btn-atomic-tangerine:hover {
-    background: #ff000073!important;
+    background: #973c00b7!important;
     color: #FFFFFF!important;
 }
 
